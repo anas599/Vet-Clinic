@@ -22,7 +22,7 @@
 
 # 📖 Vet-Clinic <a name="about-project"></a>
 
-**[Vet-Clinic]** is a Postgres SQL database that have the data of the animals such as name,date of birth , weight and howmany times have they escaped
+**Vet-Clinic** is a Postgres SQL database that have the data of the animals such as name,date of birth , weight and howmany times have they escaped
 
 ## 🛠 Built With <a name="built-with"></a>
 PostgresSQL
