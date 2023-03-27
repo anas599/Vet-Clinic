@@ -20,11 +20,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 Vet-Clinic <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
 
 **[Vet-Clinic]** is a Postgres SQL database that have the data of the animals such as name,date of birth , weight and howmany times have they escaped
 
