@@ -1,3 +1,4 @@
+createdb vet_clinic
 CREATE TABLE animals (
   id INTEGER PRIMARY KEY,
   name TEXT,
