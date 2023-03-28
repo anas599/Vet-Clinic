@@ -106,8 +106,6 @@ N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@anas599](https://github.com/anas599)
@@ -115,6 +113,24 @@ N/A
 - LinkedIn: [anas1993](https://linkedin.com/in/anas1993)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[includes Heights]**
+- [ ] **[Add links for photos of the animal]**
+- [ ] **[Add detailed behavior section]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
