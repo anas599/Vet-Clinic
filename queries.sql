@@ -66,8 +66,10 @@ WHERE escape_attempts = (
 )
 GROUP BY neutered;
 
-SELECT MIN(weight_kg) FROM animals;
-SELECT MAX(weight_kg) FROM animals;
+SELECT MIN(weight_kg), MAX(weight_kg) FROM animals
+WHERE species LIKE 'digimon'
+SELECT MIN(weight_kg), MAX(weight_kg) FROM animals
+WHERE species LIKE 'pokemon'
 
 SELECT species, AVG(escape_attempts)
 FROM animals
