@@ -70,12 +70,14 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 Postgres SQL installed
+  <br>
 run psql vet_clinic in the terminal
 
 ### Setup
 
 Clone this repository to your desired folder:
   cd vet_clinic
+    <br>
   git clone git@github.com:anas599/Vet-Clinic.git
 
 ### Install
@@ -83,6 +85,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
   cd vet_clinic
+  <br>
   psql vet_clinic
 
 
