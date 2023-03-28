@@ -118,9 +118,9 @@ N/A
 
 > Describe 1 - 3 features you will add to the project.
 
-- [includes Heights] 
-- [ Add links for photos of the animal] 
-- [Add detailed behavior section]
+- includes Heights 
+-  Add links for photos of the animal 
+- Add detailed behavior section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
