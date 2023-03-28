@@ -17,7 +17,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 # 📖 Vet-Clinic <a name="about-project"></a>
@@ -40,7 +39,6 @@ PostgresSQL
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **Display names of animals**
 - **Display age and weight**
@@ -57,9 +55,12 @@ PostgresSQL
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Using this database, you can keep track of an animal's weight, name, and escape attempts with all the necessary information
 
 To get a local copy up and running, follow these steps.
 
@@ -67,11 +68,45 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+Postgres SQL installed
+  <br>
+run psql vet_clinic in the terminal
+
+### Setup
+
+Clone this repository to your desired folder:
+  cd vet_clinic
+    <br>
+  git clone git@github.com:anas599/Vet-Clinic.git
+
+### Install
+
+Install this project with:
+
+  cd vet_clinic
+  <br>
+  psql vet_clinic
 
 
-## 👥 Authors <a name="authors"></a>
+### Usage
 
-> Mention all of the collaborators of this project.
+To run the project, execute the following command:
+  psql vet_clinic
+
+
+### Run tests
+
+To run tests, run the following command:
+
+N/A
+
+### Deployment
+
+You can deploy this project using:
+
+N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
 
@@ -80,6 +115,23 @@ In order to run this project you need:
 - LinkedIn: [anas1993](https://linkedin.com/in/anas1993)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- includes Heights 
+-  Add links for photos of the animal 
+- Add detailed behavior section
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
