@@ -40,7 +40,6 @@ PostgresSQL
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **Display names of animals**
 - **Display age and weight**
@@ -57,9 +56,12 @@ PostgresSQL
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Using this database, you can keep track of an animal's weight, name, and escape attempts with all the necessary information
 
 To get a local copy up and running, follow these steps.
 
@@ -67,9 +69,42 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+Postgres SQL installed
+run psql vet_clinic in the terminal
+
+### Setup
+
+Clone this repository to your desired folder:
+  cd vet_clinic
+  git clone git@github.com:anas599/Vet-Clinic.git
+
+### Install
+
+Install this project with:
+
+  cd vet_clinic
+  psql vet_clinic
 
 
-## 👥 Authors <a name="authors"></a>
+### Usage
+
+To run the project, execute the following command:
+  psql vet_clinic
+
+
+### Run tests
+
+To run tests, run the following command:
+
+N/A
+
+### Deployment
+
+You can deploy this project using:
+
+N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
