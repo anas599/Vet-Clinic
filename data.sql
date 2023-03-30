@@ -30,3 +30,29 @@ VALUES ('Animal', 10, 'Blossom', 3, TRUE, 17 ,TO_DATE('Oct 13th, 1998', 'Mon DDt
 
 INSERT INTO animals(species, id, name,escape_attempts, neutered, weight_kg, date_of_birth)
 VALUES ('Animal', 11, 'Ditto', 4, TRUE, 22 ,TO_DATE('May 14th, 2022', 'Mon DDth, YYYY'));
+
+----Day3-------- Query multiple tables-----------
+
+INSERT INTO owners (full_name, age)
+VALUES ('Sam Smith', 34),
+  ('Jennifer Orwell', 19),
+  ('Bob', 45),
+  ('Melody Pond', 77),
+  ('Dean Winchester', 14),
+  ('Jodie Whittaker', 38);
+INSERT INTO species (name)
+VALUES ('Pokemon'),
+  ('Digimon');
+UPDATE animals
+SET species_id = CASE
+    WHEN name LIKE '%mon' THEN (
+      SELECT id
+      FROM species
+      WHERE name = 'Digimon'
+    )
+    ELSE (
+      SELECT id
+      FROM species
+      WHERE name = 'Pokemon'
+    )
+  END;
