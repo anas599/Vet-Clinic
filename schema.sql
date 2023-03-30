@@ -30,3 +30,12 @@ ALTER TABLE animals
 ADD owner_id INT;
 ALTER TABLE animals
 ADD CONSTRAINT fk_owners FOREIGN KEY (owner_id) REFERENCES owners (id) ON DELETE CASCADE;
+
+-----Day4------ add "join table" for visits-------
+CREATE TABLE vets (
+  id int primary key GENERATED ALWAYS AS IDENTITY,
+  name varchar(255),
+  age int,
+  date_of_graduation date
+);
+
