@@ -56,3 +56,13 @@ SET species_id = CASE
       WHERE name = 'Pokemon'
     )
   END;
+
+  UPDATE animals
+SET owner_id = owners.id
+FROM owners
+WHERE 
+    (animals.name = 'Agumon' AND owners.full_name = 'Sam Smith') OR
+    (animals.name IN ('Gabumon', 'Pikachu') AND owners.full_name = 'Jennifer Orwell') OR
+    (animals.name IN ('Devimon', 'Plantmon') AND owners.full_name = 'Bob') OR
+    (animals.name IN ('Charmander', 'Squirtle', 'Blossom') AND owners.full_name = 'Melody Pond') OR
+    (animals.name IN ('Angemon', 'Boarmon') AND owners.full_name = 'Dean Winchester')

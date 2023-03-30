@@ -75,3 +75,51 @@ SELECT species, AVG(escape_attempts)
 FROM animals
 WHERE date_of_birth >= '1990-01-01' AND date_of_birth <= '2000-12-31'
 GROUP BY species;
+
+
+-----Day3------ Query multiple tables-------
+
+SELECT name AS name_of_animal,
+    full_name AS owner_full_name
+FROM animals
+    JOIN owners ON animals.owner_id = owners.id
+WHERE full_name = 'Melody Pond';
+
+SELECT animals.name AS pokemons_only
+FROM animals
+    JOIN species ON animals.species_id = species.id
+WHERE species.name = 'Pokemon';
+
+SELECT full_name AS owner_full_name,
+    name AS name_of_animal
+FROM owners
+    LEFT JOIN animals ON animals.owner_id = owners.id;
+
+    SELECT species.name AS name_of_species,
+    COUNT(species_id) AS how_many_species
+FROM species
+    JOIN animals ON animals.species_id = species.id
+GROUP BY species.name;
+
+SELECT name AS all_Digimons,
+    full_name AS owner_full_name
+FROM animals
+    JOIN owners ON animals.owner_id = owners.id
+WHERE full_name = 'Jennifer Orwell'
+    AND name LIKE '%mon';
+
+    SELECT name AS name_of_animal,
+    full_name AS owner_full_name
+FROM animals
+    JOIN owners ON animals.owner_id = owners.id
+WHERE full_name = 'Dean Winchester'
+    AND escape_attempts = 0;
+
+    SELECT full_name AS owner_full_name,
+    COUNT(owner_id) AS biggest_number_of_animals_owned
+FROM animals
+    JOIN owners ON animals.owner_id = owners.id
+GROUP BY full_name
+ORDER BY biggest_number_of_animals_owned DESC
+LIMIT 1;
+
