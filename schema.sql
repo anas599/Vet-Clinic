@@ -35,7 +35,17 @@ ADD CONSTRAINT fk_owners FOREIGN KEY (owner_id) REFERENCES owners (id) ON DELETE
 CREATE TABLE vets (
   id int primary key GENERATED ALWAYS AS IDENTITY,
   name varchar(255),
-  age int,
+  age integer,
   date_of_graduation date
 );
-
+CREATE TABLE specializations(
+  specializations_id SERIAL PRIMARY KEY,
+  species_id INTEGER REFERENCES species(id),
+  vets_id INTEGER REFERENCES vets(id)
+);
+CREATE TABLE visits(
+  visit_id SERIAL PRIMARY KEY,
+  animals_id INTEGER REFERENCES animals (id),
+  vets_id INTEGER REFERENCES vets(id),
+  date_of_visit DATE
+);
