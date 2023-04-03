@@ -49,3 +49,10 @@ CREATE TABLE visits(
   vets_id INTEGER REFERENCES vets(id),
   date_of_visit DATE
 );
+
+--Week 2 day 1 --database performance audit--
+CREATE INDEX animals_id_idx on visits (animals_id);
+
+CREATE INDEX vets_id_idx ON visits (vets_id);
+
+CREATE INDEX idx_owners_email ON owners (email);
