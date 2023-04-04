@@ -39,3 +39,8 @@ ALTER TABLE medical_histories
 ADD CONSTRAINT fk_medical_history_id
 FOREIGN KEY (medical_history_id)
 REFERENCES medical_histories(id);
+
+CREATE TABLE medical_treatment(
+  medical_histories_id INTEGER REFERENCES medical_histories (id),
+  treatments_id INTEGER REFERENCES treatments(id),
+);
