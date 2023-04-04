@@ -1,5 +1,5 @@
 # 📗 Table of Contents
-
+<img src='./DB_diagram.png'>
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
