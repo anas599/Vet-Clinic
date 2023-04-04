@@ -1,7 +1,7 @@
 createdb vet_clinic
 CREATE TABLE animals (
   id INTEGER PRIMARY KEY,
-  name TEXT,
+  name VARCHAR(255),
   escape_attempts INTEGER,
   neutered BOOLEAN,
   weight_kg DECIMAL
