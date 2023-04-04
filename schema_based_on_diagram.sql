@@ -19,7 +19,6 @@ CREATE TABLE treatments (
   id SERIAL PRIMARY KEY,
   type VARCHAR(255),
   name VARCHAR(255),
-  medical_history_id INTEGER REFERENCES medical_histories(id)
 );
 CREATE TABLE invoice_items (
   id SERIAL PRIMARY KEY,
